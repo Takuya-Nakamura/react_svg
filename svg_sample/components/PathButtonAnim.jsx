@@ -48,7 +48,6 @@ export default class PathButtonAnim extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      //
       checked: false,
       //svg
       svgSize: new Animated.Value(50),
@@ -177,7 +176,7 @@ export default class PathButtonAnim extends Component {
     };
 
     return (
-      <AnimatedSvg height={_interPolateSvgSize} width={_interPolateSvgSize} viewBox="-10 0 120 100" style={dStyle} >
+      <AnimatedSvg height={100} width={100}  viewBox='-10 -10 120 120'  style={dStyle} >
         <AnimatedPath
 
           d={path2}
