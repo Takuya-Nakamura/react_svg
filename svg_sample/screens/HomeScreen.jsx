@@ -10,7 +10,8 @@ import { TouchableHighlight, TouchableWithoutFeedback } from 'react-native-gestu
 
 /* テストデータ */
 const list = [
-  { screen: 'Sample', },
+  { screen: 'Sample' },
+  { screen: 'SortableList' },
 ];
 
 export default class HomeScreen extends Component {
